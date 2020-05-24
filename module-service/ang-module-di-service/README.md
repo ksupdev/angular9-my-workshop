@@ -39,6 +39,11 @@ ng generate component sub-module-1/first-comp
 ng generate component sub-module-1/first-comp/first-comp-L2   
 ng generate module sub-module-2
 
+// manage accout
+ng generate module manage-account
+ng generate component manage-account/accounts
+ng generate component manage-account/accounts/account-new 
+ng generate component manage-account/accounts/account-list
 
 
 ```

@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { SubModule1Module } from './sub-module-1/sub-module-1.module';
+import { ManageAccountModule } from './manage-account/manage-account.module';
 
 @NgModule({
   declarations: [
@@ -10,7 +11,8 @@ import { SubModule1Module } from './sub-module-1/sub-module-1.module';
   ],
   imports: [
     BrowserModule,
-    SubModule1Module
+    SubModule1Module,
+    ManageAccountModule
   ],
   providers: [],
   bootstrap: [AppComponent]
