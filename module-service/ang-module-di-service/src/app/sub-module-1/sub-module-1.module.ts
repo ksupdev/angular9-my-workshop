@@ -9,8 +9,8 @@ import { FirstCompComponent } from './first-comp/first-comp.component';
   imports: [
     CommonModule
   ],
-  // exports:[
-  //   FirstCompComponent
-  // ]
+  exports:[
+    FirstCompComponent
+  ]
 })
 export class SubModule1Module { }
