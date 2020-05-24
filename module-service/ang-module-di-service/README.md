@@ -36,6 +36,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ```
 ng generate module sub-module-1
 ng generate component sub-module-1/first-comp
+ng generate component sub-module-1/first-comp/first-comp-L2   
 ng generate module sub-module-2
 
 
