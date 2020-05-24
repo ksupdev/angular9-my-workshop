@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ang-module-di-service"
+    }
+  },
+  "defaultProject": "ang-module-di-service",
+  "cli": {
+    "analytics": false
+  }
 }
