@@ -44,6 +44,7 @@ ng generate module manage-account
 ng generate component manage-account/accounts
 ng generate component manage-account/accounts/account-new 
 ng generate component manage-account/accounts/account-list
+ng generate service manage-account/accounts
 
 
 ```
