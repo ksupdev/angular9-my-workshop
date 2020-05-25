@@ -1,3 +1,7 @@
 <p>accounts works!</p>
 <app-account-new></app-account-new>
-<app-account-list></app-account-list>
+<hr>
+<app-account-list
+  *ngFor="let acc of accounts; let i = index"
+  [account]="acc"
+  [id]="i"></app-account-list>

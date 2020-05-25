@@ -46,5 +46,7 @@ ng generate component manage-account/accounts/account-new
 ng generate component manage-account/accounts/account-list
 ng generate service manage-account/accounts
 
-
+// manage
+ng generate module shares
+ng generate service shares/logging
 ```

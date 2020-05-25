@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { AccountsService } from '../../accounts.service';
 
 @Component({
   selector: 'app-account-list',
@@ -7,9 +8,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AccountListComponent implements OnInit {
 
-  constructor() { }
+  constructor(private accountsService: AccountsService) { }
+
+  @Input() account: {name: string, status: string};
+  @Input() id: number;
 
   ngOnInit(): void {
+  }
+
+  public onSetTo(status: string){
+    // this.accountsService.accounts[''+this.id].status = status;
+    this.accountsService.updateStatus(this.id,status);
   }
 
 }
